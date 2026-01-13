@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ $# -ne 2 ]; then
+  echo "Usage: ${0} word pathToFile"
+  exit 1
+fi
+
+count=0
+for word in $(cat $2); do
+  if [ $word == $1 ]; then
+    count=$((count+1))
+  fi
+done
+echo $count

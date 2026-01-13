@@ -1,0 +1,3 @@
+/*
+  This is the contents of foo.cpp. It should hopefully become foo.cc
+*/

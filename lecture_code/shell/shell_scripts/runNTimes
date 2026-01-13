@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ $# -ne 2 ]; then
+  echo "Usage: ${0} pathToProg n"
+  exit 1
+fi
+
+count=$2
+while [ $count -gt 0 ]; do
+  $1
+  count=$((count-1))
+done

@@ -1,3 +1,4 @@
+#!/usr/bin/python3.13
 import sys
 
 # This program assumes it receives 2 command-line arguments and

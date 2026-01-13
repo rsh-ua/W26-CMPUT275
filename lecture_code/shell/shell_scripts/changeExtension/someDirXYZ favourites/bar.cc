@@ -1,0 +1,4 @@
+/*
+  This is the contents of bar.cpp it should hopefully become
+  bar.cc
+*/

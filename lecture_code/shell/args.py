@@ -1,3 +1,4 @@
+#!/usr/bin/python3.13
 import sys
 
 # The sys module has a list argv in it which
