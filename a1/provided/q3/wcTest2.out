@@ -1,0 +1,4 @@
+This test fails on purpose because the output has been changed.
+This is to demonstrate what happens when the script detects
+a failed test case. The actual output would be just the numbers below.
+  9  60 329
